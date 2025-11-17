@@ -8,7 +8,7 @@
 PC installed with SCILAB. 
 
 # PROGRAM: 
-
+```
 
 // DISCRETE FOURIER TRANSFORM 
 [x, fs] = wavread("C:\\Users\\acer\\Downloads\\waptt.wav");
@@ -27,6 +27,8 @@ playsnd(y, fs);
 
 // Save the trimmed audio
 wavwrite(y, fs, "C:\\Users\\acer\\Downloads\\waptt2_trimmed.wav");
+```
+
 
 
 # RESULT:
